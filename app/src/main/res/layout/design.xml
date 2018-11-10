@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:src="@drawable/mercedes17"
+    android:id="@+id/imgv1d"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Price: 42 Lac"
+        android:id="@+id/txtvp"
+        android:layout_below="@id/txtvN"
+        android:textSize="9pt"
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="Mercedes"
+        android:id="@+id/txtvN"
+        android:layout_below="@id/imgv1d"/>
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Model: 2017"
+        android:id="@+id/txtv2M"
+        android:layout_below="@+id/txtvp"
+        android:textSize="8pt"
+                />
+
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sialkot"
+        android:id="@+id/txtvL"
+        android:layout_below="@+id/txtv2M"
+        android:textSize="8pt"
+        />
+
+
+</RelativeLayout>
